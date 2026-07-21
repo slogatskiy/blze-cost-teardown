@@ -234,9 +234,9 @@
       <div class="k-sub">$25.1M D&amp;A — largest single input</div>
     </div>
     <div class="kpi">
-      <div class="k-val" style="color:var(--bad)">−few 100bps</div>
-      <div class="k-lab">FY2026 gross-margin guide</div>
-      <div class="k-sub">Equipment costs up ~30% (AI/HDD)</div>
+      <div class="k-val" style="color:var(--warn)">+30%</div>
+      <div class="k-lab">Equipment cost YoY, per-unit (Q1'26)</div>
+      <div class="k-sub">AI-driven; FY26 capex → mid-30s % of revenue</div>
     </div>
   </div>
 
@@ -271,24 +271,24 @@
   <!-- 2 media -->
   <section id="media">
     <div class="sec-head"><span class="n">02</span><h2>HDD vs SSD — the cost moat, and where inflation lands</h2></div>
-    <p class="sec-sub">B2 Cloud Storage runs on HDDs (Toshiba, Western Digital), not SSDs. HDD is ~$10–20/TB vs ~$79/TB for enterprise SSD — but the AI build-out is buying the same nearline HDDs, so the multiple has exploded and drive costs are climbing.</p>
+    <p class="sec-sub">B2 Cloud Storage runs on HDDs (Toshiba, Western Digital), not SSDs. At the 30TB nearline capacity point (Q1 2026, best-sourced), HDD ≈ $22/TB vs TLC SSD ≈ $580/TB — a <em>spot</em> ~22× gap. But that's a NAND-shortage spike; the structural long-run gap is ~4–6×. Either way HDD is the cost moat — and it is exactly the media the AI build-out is now buying.</p>
     <div class="grid2">
       <div class="card">
-        <h3>Cost per TB — 2025→2026</h3>
-        <div class="cap">Enterprise nearline media, indicative $/TB.</div>
-        <div class="bar-row"><span class="lab" style="color:var(--hdd);font-weight:600">HDD (nearline)</span><div class="track"><div class="fill" style="width:19%;background:var(--hdd)"></div></div><span class="v">~$15/TB</span></div>
-        <div class="bar-row"><span class="lab" style="color:var(--ssd);font-weight:600">Enterprise SSD</span><div class="track"><div class="fill" style="width:100%;background:var(--ssd)"></div></div><span class="v">~$79/TB</span></div>
-        <p class="cap" style="margin-top:16px;margin-bottom:0">HDD is structurally Backblaze's advantage vs SSD-first rivals — but it is also exactly the media now being squeezed by AI demand.</p>
+        <h3>Cost per TB — 30TB nearline, Q1 2026 spot</h3>
+        <div class="cap">Same 30TB capacity point, so the ratio is apples-to-apples (Vdura index via Coughlin/Forbes).</div>
+        <div class="bar-row"><span class="lab" style="color:var(--hdd);font-weight:600">HDD (30TB nearline)</span><div class="track"><div class="fill" style="width:4%;background:var(--hdd)"></div></div><span class="v">~$22/TB</span></div>
+        <div class="bar-row"><span class="lab" style="color:var(--ssd);font-weight:600">TLC SSD (30TB)</span><div class="track"><div class="fill" style="width:100%;background:var(--ssd)"></div></div><span class="v">~$580/TB</span></div>
+        <p class="cap" style="margin-top:16px;margin-bottom:0">Blended bulk/hyperscaler HDD is lower (~$15/TB, less well-sourced). CEO framing: <em>"flash is now ~10× more expensive per TB than hard drives"</em> — the structural gap that pulls neoclouds onto HDD.</p>
       </div>
       <div class="card">
-        <h3>SSD-to-HDD cost multiple has blown out</h3>
-        <div class="cap">The gap widened ~4x in nine months as NAND supply tightened.</div>
+        <h3>SSD ÷ HDD multiple — spike vs structural</h3>
+        <div class="cap">The 30TB spot multiple blew out ~4×→22× in nine months as NAND tightened.</div>
         <div class="chartwrap"><canvas id="divChart" width="520" height="240"></canvas></div>
         <div class="legend">
-          <span><i class="swatch" style="background:var(--accent)"></i>SSD ÷ HDD cost multiple</span>
-          <span>Q2'25 ≈ 5–6× &nbsp;→&nbsp; Q1'26 ≈ 16–23×</span>
+          <span><i class="swatch" style="background:var(--accent)"></i>Spot multiple (30TB)</span>
+          <span><i class="swatch" style="background:var(--hdd)"></i>Structural ~4–6× (Coughlin, thru 2030)</span>
         </div>
-        <p class="cap" style="margin-top:14px;margin-bottom:0">Over the same window HDD $/TB rose ~35% while SSD rose 250–470%. Western Digital reported effectively sold out for calendar 2026.</p>
+        <p class="cap" style="margin-top:14px;margin-bottom:0">Q2'25 ≈ 4.9× → Q1'26 ≈ 22.6×. HDD $/TB rose ~35% while 30TB SSD rose 470–520%. WD/Seagate reported effectively sold out for 2026. <strong>Don't extrapolate 22× as permanent</strong> — analyst consensus reverts toward 4–6×.</p>
       </div>
     </div>
   </section>
@@ -321,7 +321,7 @@
           <button data-pc="-20" data-eb="20" data-pt="100">Deflation −20%</button>
           <button data-pc="0" data-eb="20" data-pt="100">Reset</button>
         </div>
-        <p class="modelnote">Note: this hits <strong>GAAP</strong> gross margin only. Backblaze's headline <strong>adjusted</strong> gross margin (79%) excludes D&amp;A entirely, so this drive-price risk is invisible in the metric management leads with.</p>
+        <p class="modelnote"><strong>Read this as the cost-only downside.</strong> Management's latest (Q1'26) framing is net-<em>flat</em> FY2026 margin — a May 2026 price increase is expected to offset the cost/capex drag (the Q4'25 "−few hundred bps" was pre-price-hike). This slider isolates the input-cost hit <em>before</em> any pricing offset — i.e. the risk if BLZE's pricing power fails. It also hits <strong>GAAP</strong> only; the headline <strong>adjusted</strong> GM (79%) excludes D&amp;A, so the drive-price risk is invisible there.</p>
       </div>
       <div class="readout">
         <div class="ro-big">
@@ -346,9 +346,10 @@
       <div class="flowcard rev">
         <div class="side">▲ Revenue side — Backblaze SELLS storage</div>
         <h3>Multi-year deals = provider contracts</h3>
-        <div class="deal"><span class="amt">$335M</span><span class="desc"><strong>CoreWeave</strong> — 5-year, multi-exabyte HDD storage for AI object-store (Jun 2026). Plus 4.19M warrants at $7.60.</span></div>
-        <div class="deal"><span class="amt">&gt;$15M</span><span class="desc"><strong>B2 "Neo Cloud"</strong> — eight-figure TCV, 2-year (not 5), revenue starting 2027.</span></div>
-        <p class="cap" style="margin-top:16px;margin-bottom:0">Backblaze is <strong>monetizing</strong> the AI storage surge as a low-cost supplier. Risk: it commits to supply at contracted economics for 5 years <em>while its own HDD input inflates</em>.</p>
+        <div class="deal"><span class="amt">~$335M</span><span class="desc"><strong>CoreWeave</strong> (Jun 2026) — multi-exabyte HDD storage for AI object-store. TCV is a <em>consumption-based estimate, not a fixed minimum</em>; order forms of 5 <em>and</em> 7 years. Revenue ramp <strong>not disclosed</strong>.</span></div>
+        <div class="deal"><span class="amt">4.19M</span><span class="desc"><strong>Warrants @ $7.60</strong> — 3.05M time-based (5%/qtr over 5yr) + 1.14M capacity-based. ~8–9% fully-diluted if all vest.</span></div>
+        <div class="deal"><span class="amt">&gt;$15M</span><span class="desc"><strong>B2 "Neo Cloud"</strong> — eight-figure TCV, 2-year, ~no revenue until 2027 (+300bps to '27 B2 growth).</span></div>
+        <p class="cap" style="margin-top:16px;margin-bottom:0"><strong>Sizing:</strong> FY26 revenue guide $161.5–163.5M; Q1'26 B2 +24% YoY, AI customers +76%. CoreWeave ≈ ~$67M/yr <em>at maturity</em> if evenly spread — potentially transformational, but back-end loaded with little in 2026.</p>
       </div>
       <div class="flowcard cost">
         <div class="side">▼ Cost side — Backblaze BUYS drives</div>
@@ -392,22 +393,22 @@
       </div>
     </div>
     <div class="netbox">
-      <span class="eyebrow">The net question</span>
-      <p>The same HDD tightness that raises Backblaze's costs also drives customers to its cheap HDD tier (CoreWeave, Neo Cloud). <strong>The bull case is that incremental high-margin provider revenue out-earns the cost inflation.</strong> That netting isn't yet visible in disclosure — confirm the CoreWeave deal's realized margin, drive-fill economics, and warrant dilution before underwriting it.</p>
+      <span class="eyebrow">The net question — not yet quantifiable</span>
+      <p>Management <em>asserts</em> qualitatively that AI storage revenue offsets the ~30% per-unit cost inflation, and it now guides FY2026 margin to net-flat. But the two load-bearing numbers are <strong>undisclosed</strong>: the CoreWeave revenue ramp/timing and any deal-level gross margin. The Q1'26 margin lift to 61% leaned partly on the useful-life <em>accounting</em> change, not demonstrated neocloud profitability. So the revenue-minus-cost bridge <strong>can't be built from public data yet</strong> — CoreWeave is an optionality story until disclosure. <strong>Next catalyst: the Q2 2026 call (~early Aug 2026)</strong> — the first with CoreWeave color. Underwrite then.</p>
     </div>
   </section>
 
   <!-- sources -->
   <section id="sources">
     <div class="sec-head"><span class="n">07</span><h2>Sources &amp; method</h2></div>
-    <p class="sec-sub">Multi-source research with adversarial verification (24 of 25 top claims confirmed 3-0 against primary filings). Figures current as of the FY2025 10-K and Q4'25 / Q1'26 calls.</p>
+    <p class="sec-sub">Multi-source research with adversarial verification (24 of 25 top claims confirmed 3-0 against primary filings), plus three targeted follow-ups on $/TB, FY26 guidance, and the CoreWeave economics. Confidence noted per source.</p>
     <div class="src">
       <ol>
-        <li><span class="badge pri">primary</span>Backblaze FY2025 Form 10-K — COGS, D&amp;A, PP&amp;E, useful-life change, supplier concentration (SEC EDGAR, CIK 1462056).</li>
-        <li><span class="badge pri">primary</span>Backblaze FY2024 Form 10-K &amp; Q3 2025 Form 10-Q — margin history, finance-lease terms (2–6 yr, 12.3% rate), capex.</li>
-        <li><span class="badge pri">primary</span>Q4 2025 &amp; Q4 2024 earnings releases and call transcripts — adjusted GM bridge, FY2026 guidance, ~30% equipment inflation, Neo Cloud deal.</li>
-        <li><span class="badge pri">primary</span>BusinessWire — "Backblaze Announces Five-Year, Multi-Exabyte Data Storage Agreement with CoreWeave" ($335M, warrants), Jun 2026.</li>
-        <li><span class="badge">industry</span>Forbes / Tom Coughlin, The Register, Club386, 2026 — enterprise HDD vs SSD $/TB and the SSD:HDD cost-multiple divergence.</li>
+        <li><span class="badge pri">primary</span>Backblaze FY2025 &amp; FY2024 Forms 10-K, Q3 2025 Form 10-Q — COGS, D&amp;A, PP&amp;E, useful-life change, finance-lease terms (2–6 yr, 12.3%), supplier concentration (SEC EDGAR, CIK 1462056).</li>
+        <li><span class="badge pri">primary</span>CoreWeave 8-K exhibit + BusinessWire (Jun 2026) — ~$335M consumption-based TCV, 5/7-yr order forms, 4.19M warrants @ $7.60 (vesting, dilution). <span class="badge pri">primary</span>Q1'26 8-K — FY26 revenue guide $161.5–163.5M.</li>
+        <li><span class="badge">transcript</span>Q4 2025 (Feb '26) &amp; Q1 2026 (May '26) earnings calls (Motley Fool) — capex high-20s→mid-30s % of revenue, ~30% per-unit equipment inflation, margin guide evolving to net-flat, Neo Cloud deal. <em>Secondary aggregator; verify vs IR replay if load-bearing.</em></li>
+        <li><span class="badge">industry</span>Forbes / Tom Coughlin (Vdura index, Apr '26) — 30TB HDD ~$22/TB (+35% YoY) vs SSD ~$580/TB (~22× spot), structural ~4–6× thru 2030.</li>
+        <li><span class="badge">industry</span>TrendForce (Sep '25), Tom's Hardware — AI-driven HDD tightness, WD/Seagate sold out for 2026, 52-wk lead times.</li>
       </ol>
     </div>
   </section>
@@ -462,7 +463,7 @@
 
   // divergence chart (SSD/HDD multiple over time)
   var data=[
-    {t:"Q2'25",v:5.5},{t:"Q3'25",v:8},{t:"Q4'25",v:12},{t:"Q1'26",v:19}
+    {t:"Q2'25",v:4.9},{t:"Q3'25",v:9},{t:"Q4'25",v:15},{t:"Q1'26",v:22.6}
   ];
   function cssVar(n){return getComputedStyle(document.documentElement).getPropertyValue(n).trim();}
   function drawChart(){
@@ -484,6 +485,15 @@
       var y=Y(g); ctx.beginPath();ctx.moveTo(padL,y);ctx.lineTo(W-padR,y);ctx.stroke();
       ctx.fillText(g+'x',padL-6,y+3);
     });
+    // structural band ~4-6x
+    var hdd=cssVar('--hdd');
+    ctx.fillStyle=hdd+'22';
+    ctx.fillRect(padL, Y(6), W-padL-padR, Y(4)-Y(6));
+    ctx.strokeStyle=hdd+'88'; ctx.setLineDash([4,3]); ctx.lineWidth=1;
+    ctx.beginPath();ctx.moveTo(padL,Y(5));ctx.lineTo(W-padR,Y(5));ctx.stroke();
+    ctx.setLineDash([]);
+    ctx.textAlign='left'; ctx.fillStyle=hdd; ctx.font='9px ui-monospace,monospace';
+    ctx.fillText('structural ~4-6x', padL+4, Y(6)-4);
     // area
     var grad=ctx.createLinearGradient(0,padT,0,H-padB);
     grad.addColorStop(0, accent+'55'); grad.addColorStop(1, accent+'05');
