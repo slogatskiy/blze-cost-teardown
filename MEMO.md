@@ -30,7 +30,7 @@ Backblaze is a **capital-intensive, HDD-based** storage business whose single la
 ## 2. HDD vs SSD — and why Backblaze is HDD-first
 
 - Backblaze runs **hundreds of thousands of HDDs** (not SSDs) for B2 Cloud Storage, sourced from a **limited supplier base (Toshiba, Western Digital)** across leased colocation space (CA, AZ, VA, Amsterdam, Toronto). It owns no real property.
-- **$/TB (best-sourced, 30TB nearline, Q1 2026, Vdura/Coughlin):** HDD ≈ **$22/TB** (+35% YoY) vs 30TB TLC SSD ≈ **$580/TB** → a **~22× spot multiple**. Blended bulk/hyperscaler HDD is lower (~$15/TB) but only blog-sourced — treat as directional.
+- **$/TB (best-sourced, 30TB nearline, Q1 2026, Vdura/Coughlin):** HDD ≈ **$22/TB** (+35% YoY) vs 30TB QLC SSD ≈ **$500/TB** → a **~22.6× spot multiple** (TLC SSD is higher at ~$580/TB ≈ 26×). Blended bulk/hyperscaler HDD is lower (~$15/TB) but only blog-sourced — treat as directional.
 - **Spot vs structural:** the 22× is a temporary NAND-shortage spike (SSD +470–520% vs HDD +35% over nine months, from ~4.9× in Q2'25). Analyst long-run view (Coughlin) is the gap **reverts to ~4–6× through 2030** — don't extrapolate 22× as permanent. CEO framing: "flash is now ~10× more expensive per TB than hard drives."
 - Implication: HDD is structurally Backblaze's cost moat vs SSD-based rivals — but it is *also* where the AI-driven inflation is now landing, because AI data centers are buying the same nearline HDDs.
 
